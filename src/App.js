@@ -1,9 +1,12 @@
 
 import "./App.css";
-//import headerPattern from "../src/Images/pattern-bg.png";
 import { FaGreaterThan } from "react-icons/fa";
+//import { useState } from "react";
+
+//https://geo.ipify.org/api/v2/country,city?apiKey=at_tpKQZDz5p0yfpXsrs9SY9INCQf4Yk&ipAddress=8.8.8.8
 
 function App() {
+
   return (
     <div className="App">
       <div className="header">
@@ -35,6 +38,7 @@ function App() {
           <h3>SpaceX / Starlink</h3>
         </div>
       </div>
+      <div id="map"></div>
     </div>
   );
 }
